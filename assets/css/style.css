@@ -313,6 +313,10 @@ border-collapse: collapse;
     font-size: 3.5rem;
 }
 
+.content-table {
+  width: 96%;
+}
+
 .content-table h2 {
   font-size: 2rem;
 }
