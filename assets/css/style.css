@@ -280,6 +280,7 @@ border-collapse: collapse;
 
   .info {
     width: 96%;
+    margin: 2rem auto;
   }
 
   .info p {
@@ -295,7 +296,9 @@ border-collapse: collapse;
   }
 
   .about {
-    width: 96%;;
+    width: 96%;
+    margin: 2rem auto;
+
   }
 
   .about h2 {
@@ -320,10 +323,13 @@ border-collapse: collapse;
   .app-name {
     font-size: 3.5rem;
     width: 96%;
+    margin: 2rem auto;
+
 }
 
 .content-table {
   width: 96%;
+  margin: 2rem auto;
 }
 
 .content-table h2 {
