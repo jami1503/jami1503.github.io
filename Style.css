@@ -286,6 +286,10 @@ border-collapse: collapse;
     font-size: 1.8rem;
   }
 
+  .answer {
+    width: 96%;
+  }
+
   .title {
     height: 68px;
   }
