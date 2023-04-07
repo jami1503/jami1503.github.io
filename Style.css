@@ -332,4 +332,8 @@ border-collapse: collapse;
 .answer h2 {
   font-size: 1.5rem;
 }
+
+.answer {
+  width: 96%;
+}
 }
