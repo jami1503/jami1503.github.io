@@ -278,6 +278,10 @@ border-collapse: collapse;
     font-size: 1.2rem;
   }
 
+  .info {
+    width: 96%;
+  }
+
   .info p {
     font-size: 1.2rem;
   }
@@ -288,6 +292,10 @@ border-collapse: collapse;
 
   .title {
     height: 68px;
+  }
+
+  .about {
+    width: 96%;;
   }
 
   .about h2 {
@@ -311,6 +319,7 @@ border-collapse: collapse;
 
   .app-name {
     font-size: 3.5rem;
+    width: 96%;
 }
 
 .content-table {
