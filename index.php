@@ -8,6 +8,7 @@ include "./includes/functions.php";
 // establecer variable global Título de pagina
 $page_title = "Stream Queens Agency";
 
+// abrir documento html
 openDocument();
 
 ?>
