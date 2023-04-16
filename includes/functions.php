@@ -76,7 +76,7 @@ function getPageHeader(){ ?>
 				</a>
 			</li>
 			<li class="nav-item">
-				<a href="/" class="nav-link">
+				<a href="/chamet.php" class="nav-link">
 					Chamet
 				</a>
 			</li>
@@ -122,7 +122,7 @@ function getPageHeader(){ ?>
 				</a>
 			</li>
 			<li class="nav-item">
-				<a href="/" class="nav-link">
+				<a href="/chamet.php" class="nav-link">
 					Chamet
 				</a>
 			</li>
