@@ -31,7 +31,6 @@ function openDocument(){
  * function closeDocument 
  */
 
-
 function closeDocument(){ ?>
 <button type="button" class="top-button">
 	<span class="material-symbols-outlined">
