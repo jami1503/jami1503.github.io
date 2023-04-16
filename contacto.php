@@ -1,20 +1,16 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contacto</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/img/SQ_logo-removebg-preview (1).png"
-    />
-  </head>
-  <body>
-    <?php require('./template-parts/header.php'); ?>
-    
+<?php
+
+// file index.php
+
+// incluir fichero functions.php
+include "./includes/functions.php";
+
+// establecer variable global Título de pagina
+$page_title = "Contacto - Stream Queens Agency";
+
+openDocument();
+
+?>
     <section class="content">
       <div class="info">
         <h2>¿Encontraste lo que buscabas?</h2>
