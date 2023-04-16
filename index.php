@@ -1,6 +1,7 @@
 <?php
 
 // file index.php
+// file path /
 
 // incluir fichero functions.php
 include "./includes/functions.php";
