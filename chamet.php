@@ -15,26 +15,7 @@
     
   </head>
   <body>
-    <header>
-      <div class="logo-bg">
-        <figure class="logo">
-          <a href="/index.html"
-            ><img
-              src="/assets/img/SQ_logo-removebg-preview (1).png"
-              alt="Logo stream Queens"
-              id="logo-img"
-          /></a>
-        </figure>
-      </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="/contacto.html">Contacto</a></li>
-          <li><a href="/index.html#about">Acerca de</a></li>
-          <li><a href="/chamet.html">Chamet</a></li>
-          <li><a href="https://h5.ichamet.com/webH5/agent/bind.html?companyId=55309" target="_blank">Únete</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php require('./template-parts/header.php'); ?>
     <section class="content">
       <h1 class="app-name">Chamet App</h1>
 
@@ -205,8 +186,4 @@
     <div class="button-up" id="top-button"><a href="">
       <i class="fa-solid fa-angle-up" ></i></a>
     </div>
-    
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="/assets/js/script.js"></script>
-  </body>
-</html>
+<?php include "template-parts/footer.php"; ?>

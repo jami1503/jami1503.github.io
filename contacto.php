@@ -13,26 +13,8 @@
     />
   </head>
   <body>
-    <header>
-      <div class="logo-bg">
-        <figure class="logo">
-          <a href="/index.html"
-            ><img
-              src="/assets/img/SQ_logo-removebg-preview (1).png"
-              alt="Logo stream Queens"
-              id="logo-img"
-          /></a>
-        </figure>
-      </div>
-      <nav class="menu">
-        <ul>
-          <li><a href="/contacto.html">Contacto</a></li>
-          <li><a href="/index.html#about">Acerca de</a></li>
-          <li><a href="/chamet.html">Chamet</a></li>
-          <li><a href="https://h5.ichamet.com/webH5/agent/bind.html?companyId=55309" target="_blank">Únete</a></li>
-        </ul>
-      </nav>
-    </header>
+    <?php require('./template-parts/header.php'); ?>
+    
     <section class="content">
       <div class="info">
         <h2>¿Encontraste lo que buscabas?</h2>
