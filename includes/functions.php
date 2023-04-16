@@ -49,7 +49,7 @@ function closeDocument(){ ?>
  * function getHeader
  */
  
-function getHeader(){ ?>
+function getPageHeader(){ ?>
 <header class="page-header">
 	<div class="brand">
 		<a href="/">

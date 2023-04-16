@@ -11,7 +11,7 @@ $page_title = "Stream Queens Agency";
 
 // abrir documento html
 openDocument();
-
+getPageHeader();
 ?>
 
 <section class="content">

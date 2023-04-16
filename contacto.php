@@ -1,6 +1,6 @@
 <?php
 
-// file index.php
+// file contacto.php
 
 // incluir fichero functions.php
 include "./includes/functions.php";
@@ -9,7 +9,7 @@ include "./includes/functions.php";
 $page_title = "Contacto - Stream Queens Agency";
 
 openDocument();
-
+getPageHeader();
 ?>
     <section class="content">
       <div class="info">
