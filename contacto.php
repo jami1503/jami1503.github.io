@@ -28,5 +28,4 @@ openDocument();
         /></a>
       </div>
     </section>
-  </body>
-</html>
+<?php closeDocument(); ?>
