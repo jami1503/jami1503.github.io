@@ -96,9 +96,44 @@ function getHeader(){ ?>
 		</span> 
 	</button>
 	
-	
-	
-	<!-- menu responsivo -- >
+	<!-- menu responsivo -->
+	<nav class="menu menu-responsive">
+		
+		<!-- botón qué cierra el menú responsivo -->
+		<button type="button" class="btn-toggle-menu btn-hide-menu">
+			<span class="material-symbols-outlined">
+				close
+			</span>
+		</button>
+		
+		<ul class="nav">
+			<li class="nav-item">
+				<a href="/" class="nav-link">
+					Inicio
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="/#about" class="nav-link">
+					Nosotros
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="/contacto.php" class="nav-link">
+					Contacto
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="/" class="nav-link">
+					Chamet
+				</a>
+			</li>
+			<li class="nav-item">
+				<a href="https://h5.ichamet.com/webH5/agent/bind.html?companyId=55309" class="nav-link cta-link">
+					Unirse
+				</a>
+			</li>
+		</ul>
+	</nav>
 	
 </header>
 <?php } ?>
