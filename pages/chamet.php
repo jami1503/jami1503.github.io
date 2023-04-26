@@ -1,23 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chamet APP</title>
-    <link rel="stylesheet" href="/assets/css/style.css" />
-    <link
-      rel="icon"
-      type="image/x-icon"
-      href="/assets/img/SQ_logo-removebg-preview (1).png"
-    />
-    <script src="https://kit.fontawesome.com/63e8994a88.js" crossorigin="anonymous"></script>
-    
-  </head>
-  <body>
-    <?php require('./template-parts/header.php'); ?>
-    <section class="content">
-      <h1 class="app-name">Chamet App</h1>
+<section class="container-fluid container-md">
+  <h1>Chamet App</h1>
 
       <figure class="logo-app">
         <img src="/assets/img/Chamet_logo-removebg-preview.png" alt="" />
@@ -49,29 +31,31 @@
       </nav>
 
       <article class="app-info">
-        <div class="answer">
-          <h2 id="answer-1">¿Qué es Chamet?</h2>
-          <p>
-            Chamet App es una plataforma móvil que te brinda la oportunidad de
+        <div class="card">
+          <div class="card-header">
+            <h2 id="answer-1" class="card-title">¿Qué es Chamet?</h2>
+          </div>
+          
+          <div class="card-body">
+            <p>Chamet App es una plataforma móvil que te brinda la oportunidad de
             hacer amigos en cualquier parte del mundo, en cualquier momento y en
             cualquier lugar. Esta aplicación, disponible solamente en Android, ofrece
             una variedad de características para ayudarte a conectarte con
-            nuevas personas.
-          </p>
-
-          <p>
-            Puedes comenzar a conocer gente a través de videollamadas en vivo, lo que te permite interactuar con personas en tiempo real. Además, Chamet te permite chatear cara a cara, tener conversaciones individuales y realizar conexiones aleatorias con personas de todo el mundo.
-          </p>
-
-          <p>
-            La aplicación también cuenta con una función de transmisión en vivo que te permite compartir tus intereses y habilidades con otros usuarios. Asimismo, si estás buscando divertirte, las salas de fiesta son una excelente manera de unirte a otros usuarios y
-            disfrutar de la música y el entretenimiento en línea.
-          </p>
-        </div>
-        <div class="answer">
-            <h2 id="answer-2">Formas de ganar dinero en Chamet</h2>
+            nuevas personas.</p>
+            <p>Puedes comenzar a conocer gente a través de videollamadas en vivo, lo que te permite interactuar con personas en tiempo real. Además, Chamet te permite chatear cara a cara, tener conversaciones individuales y realizar conexiones aleatorias con personas de todo el mundo.</p>
+            <p>La aplicación también cuenta con una función de transmisión en vivo que te permite compartir tus intereses y habilidades con otros usuarios. Asimismo, si estás buscando divertirte, las salas de fiesta son una excelente manera de unirte a otros usuarios y
+            disfrutar de la música y el entretenimiento en línea.</p>
+            
+          </div> <!-- end card-body -->
+        </div> <!-- end card -->
+        
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title" id="answer-2">Formas de ganar dinero en Chamet</h2>
+          </div>
+          <div class="card-body">
             <p>La aplicación Chamet ofrece múltiples opciones para ganar dinero, que se detallan a continuación:</p>
-            <ul>
+            <ul class="list-crowns">
                 <li>
                     <strong>Transmisión en vivo:</strong> Las anfitrionas pueden ganar dinero transmitiendo en vivo y recibiendo regalos de los espectadores.
                 </li>
@@ -88,7 +72,7 @@
                     <strong>Recompensas de Chamet:</strong> Los usuarios también pueden ganar dinero a través del programa de Recompensas de Chamet, que ofrece varios incentivos y bonificaciones por completar misiones.
                 </li>
             </ul>
-                
+          </div>
         </div>
 
         <div class="answer">
@@ -183,7 +167,3 @@
 
       </article>
     </section>
-    <div class="button-up" id="top-button"><a href="">
-      <i class="fa-solid fa-angle-up" ></i></a>
-    </div>
-<?php include "template-parts/footer.php"; ?>

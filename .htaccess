@@ -1,0 +1,11 @@
+# Activar RewriteEngine 
+RewriteEngine On 
+
+RewriteCond %{SERVER_PORT} 3000 
+RewriteBase / 
+
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
+RewriteCond %{REQUEST_FILENAME}.php -f 
+
+RewriteRule ^(.*)$ ./index.php?page=$1 [L]

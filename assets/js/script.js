@@ -1,25 +1,36 @@
-$(document).ready(function() {
-
-  // Variables para el botón y el elemento de destino
-  var $buttonUp = $('.button-up');
-  var $contentTable = $('.content-table');
-
-  // Oculta el botón al principio
-  $buttonUp.hide();
-
-  // Muestra el botón al desplazarse hacia abajo
-  $(window).scroll(function() {
-    if ($(this).scrollTop() > ($(window).height() + 400) / 2) {
-      $buttonUp.fadeIn();
-    } else {
-      $buttonUp.fadeOut();
+$(document).ready(function(){
+  
+  
+  let scrollUp = $("<button>", {
+    type: "button", 
+    class: "btn-scroll-up"
+  });
+  let pageHeight = document.documentElement.scrollHeight;
+  let screenHeight = $(window).innerHeight();
+  
+  scrollUp.append(
+    $("<span>", {
+      class: "material-symbols-outlined",
+      text: "expand_less"
+    })
+  )
+  
+  function handleToTop(){
+    $('html, body').animate({scrollTop: 0}, 'slow');
+  }
+  
+  function onScrollMotion(){
+    if($(window).scrollTop() > pageHeight / 3){
+      scrollUp.addClass('show')
+    }else{
+      scrollUp.removeClass('show')
     }
-  });
-
-  // Desplaza suavemente hacia arriba al hacer clic en el botón
-  $buttonUp.click(function() {
-    $('html, body').animate({scrollTop: $contentTable.offset().top}, 800);
-    return false;
-  });
-
-});
+  }
+  
+  if(pageHeight >= screenHeight * 2){
+    scrollUp.appendTo("body")
+    scrollUp.click(handleToTop)
+    $(window).scroll(onScrollMotion)
+  }  
+  
+})
